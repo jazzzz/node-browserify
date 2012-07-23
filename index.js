@@ -78,7 +78,7 @@ var exports = module.exports = function (entryFile, opts) {
                     if (!ex) {
                         // deleted
                         if (w.files[file]) {
-                            delete w.files[file];
+//                            delete w.files[file];
                         }
                         else if (w.entries[file] !== undefined) {
                             w.appends.splice(w.entries[file], 1);
