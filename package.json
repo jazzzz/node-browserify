@@ -1,6 +1,6 @@
 {
     "name" : "browserify",
-    "version" : "1.17.2",
+    "version" : "1.18.0",
     "description" : "browser-side require() the node way",
     "main" : "index.js",
     "bin" : {
@@ -26,6 +26,7 @@
     "dependencies" : {
         "detective" : "~0.2.0",
         "buffer-browserify" : "~0.0.1",
+        "console-browserify": "~0.1.0",
         "deputy" : "~0.0.3",
         "syntax-error" : "~0.0.0",
         "resolve" : "~0.2.0",
